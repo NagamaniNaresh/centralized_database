@@ -4,6 +4,6 @@ $path = file_get_contents('http://www.goalserve.com/getfeed/519d873430e44ad39914
 $xml = json_decode(json_encode((array) simplexml_load_string($path)), 1);
 echo '<pre>';
 print_r($xml);
-
+// Added now
 
 ?>
